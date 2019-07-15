@@ -1,6 +1,5 @@
 import * as dotenv from 'dotenv';
 import * as fs from 'fs';
-import { Logger } from '@nestjs/common';
 
 export class ConfigService {
   private readonly envConfig: {
